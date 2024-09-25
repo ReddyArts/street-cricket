@@ -1,0 +1,22 @@
+.heads{
+    width: 200px;
+    height: 200px;
+ 
+    padding: 0px;
+}
+.tails{
+    width: 200px;
+    height: 200px;
+   
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.reset{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 105px;
+}

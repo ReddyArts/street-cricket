@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip with Video</title>
+    <link rel="stylesheet" href="toss.css">
+</head>
+<body>
+    <div style="margin-right: 300px;">
+        <p>Who won the toss?</p>
+        <button>Team_A</button>
+        <button>Team_B</button>
+        <p>Choose</p>
+        <button>Bat</button>
+        <Button>Ball</Button>
+        <p><button>NEXT</button></p>
+    </div>
+
+    <div class="container">
+        <h1>Flip a Coin</h1>
+        <video id="coinVideo" class="coin-video" width="320" height="240" preload="metadata">
+            <source src="flip.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="flipButton" >Flip Coin</button>
+        <p id="result"></p>
+    </div>
+    <script src="toss.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="html" href="page2.html">
+</head>
+<body>
+    <div class="nav-bar">
+
+        <P>LETS START A MATCH</P>
+        <p>?</p>
+    </div>
+
+    <div class="vs">
+        <P>SAKETH TEAM</P>
+        <P>VS</P>
+        <P>REDDY TEAM</P>
+    </div>
+        <div>
+            <p>Match Type <span>*</span></p>
+            <button class="overs1" onclick="
+            selectedOvers=1;
+           
+            f();
+            ">Limited overs</button>
+            <button class="overs2"
+            onclick="
+            selectedOvers=2;
+           
+            f();
+            "
+            >Box/Turf Cricket</button>
+            <button class="overs3"
+            onclick="
+            selectedOvers=3;
+         
+            f();
+            ">Pair Cricket</button>
+            <button class="overs4" onclick="
+            selectedOvers=4;
+            
+            f();
+            ">Test Match</button>
+            <button class="overs5" onclick="
+            selectedOvers=5;
+            
+            f();
+            ">The Hundred</button>
+
+
+        </div>
+        <div class="noOvers">
+            <p style="margin-left: 80px;margin-bottom: -7px;">No.of Overs*</p>
+            <p style="margin-left: 140px;margin-bottom: -7px;">Overs per Bowler</p>
+        
+        </div>
+        <div class="noOvers">
+            <input style="width: 200px;height: 30px; margin-left: 30px;" placeholder="overs" type="text" class="totalOvers1">
+            <button style="width: 50x;height: 35px; "onclick="
+            pickOvers();
+            ">set</button>
+            <input style="width: 200px;height: 30px; margin-left: 30px;" type="text" placeholder="overs per Baller" class="oversPerBaller">
+            <button onclick="
+            
+          Overs_Per_Ballers();
+
+            " style="width: 50x;height: 35px; ">Set</button>
+            <p style="margin-left: 30px;">Power Play Overs:</p>
+            <input class="pwplay" style="width: 200px;height: 30px; margin-left: 30px;" type="text" placeholder="Power Play Overs">
+            <button style="width: 50x;height: 35px; " onclick="
+            power_play();
+            ">SET</button>
+        </div>
+        <div>
+            <p>DATE&TIME</p>
+            <input type="date" class="date" >
+            <button onclick="
+            date_fnc();
+            console.log(date);">add</button>
+
+        </div>
+        <div>
+            <p>Ball Type*</p>
+        </div>
+        <div class="ball-names">
+            <button class="ball1" onclick="
+                selectedColor=1;
+                ballSelection();
+                "><img class="ball" src="tennis ball.jpg" alt=""></button>
+            <button class="ball2"
+             onclick="
+            selectedColor=2;
+            ballSelection();
+            "
+            
+            ><img class="ball" src="leather ball.jpg" alt=""></button>
+            <button class="ball3"
+            onclick="
+            selectedColor=3;
+            ballSelection();
+            "
+            
+            ><img class="ball-color" src="fireball.webp" alt=""></button>
+        </div>
+        <div class="ball-names">
+            <p style="margin-left: -10px;">Tennis-Ball</p>
+            <p style="margin-left: -50px;">Leather-Ball</p>
+            <p style="margin-left: -38px;">Other</p>
+        </div>
+        <div class="umpire">
+            <p >Umpire Name:</p>
+            <input class="Ump_name" style="width: 200px;height: 30px; margin-left: 30px;" type="text" placeholder="Umpire-Name">
+            <button style="width: 50x;height: 35px; " onclick="
+            umpirename();
+            console.log(umpire_name)
+            ">Set</button>
+        </div>
+        <a href="page2.html"><button 
+        
+        
+         style="margin-left: 500px;margin-top: 30px;">
+            START-MATCH
+          </button></a>
+    
+
+<script src="cricket.js">
+   
+
+</script>
+</body>
+</html>

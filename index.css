@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    border: 0px;
+   
+}
+.nav-bar{
+display: flex;
+background-color: rgb(125, 1, 1);
+color:white;
+align-items: center;
+justify-content: center;
+}
+.vs{
+    display: flex;
+    align-items: center;
+justify-content:space-around
+}
+.overs{
+    background-color: white;
+   
+
+}
+.selected{
+    background-color:rgb(109, 9, 9);
+    color:white;
+}
+.noOvers{
+    display: flex;
+    align-items: center;
+}
+.ball{
+    width: 100%;
+    height: 100%;
+ 
+    
+}
+.ball1{
+    background-color: white;
+    width:70px;
+    border:0px;
+}
+.ball2{
+    background-color: white;
+    width:70px;
+    border:0px;
+}
+.ball3{
+    background-color: white;
+    width:70px;
+    border:0px;
+}
+.ball-color{
+    width: 100%;
+    height: 100%;
+}
+.ball-names{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:-10px
+}
+.selected1{
+    border: 2px solid blue;
+}
+.umpire{
+    display: flex;
+    align-items: center;
+}

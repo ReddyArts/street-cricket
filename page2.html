@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        
+        <li>Match-Type: <span  class="p1"></span> </li>
+            <li>Overs: <span  class="p2"></span></li>
+            <li>Overs-Per-Bowler: <span  class="p3"></span></li>
+            <li>Power-Play-Overs: <span  class="p4"></span></li>
+            <li>Date: <span  class="p5"></span></li>
+            <li> Ball-Type:<span  class="p6"></span></li>
+            <li>Umpire-Name:<span  class="p7"></span></li>
+            <button>Toss</button>
+          
+            
+            
+            
+            
+            
+        
+    </ol>
+<script >
+
+    const p1 =localStorage.getItem('mt');
+    const p6 =localStorage.getItem('ball');
+    const p2 =localStorage.getItem('totalovers');
+    const p3 =localStorage.getItem('opb');
+    const p5 =localStorage.getItem('date');
+    const p7 =localStorage.getItem('umpire');
+    const p4=localStorage.getItem('pp');
+    
+        document.querySelector('.p1').textContent=p1;
+    document.querySelector('.p2').textContent=p2;
+    document.querySelector('.p3').textContent=p3;
+    document.querySelector('.p4').textContent=p4;
+    document.querySelector('.p5').textContent=p5;
+    document.querySelector('.p6').textContent=p6;
+    document.querySelector('.p7').textContent=p7;
+    
+  
+
+
+</script>
+</body>
+</html>
